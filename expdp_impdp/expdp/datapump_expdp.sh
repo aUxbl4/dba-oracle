@@ -28,5 +28,4 @@ expdp \'/ as sysdba\' directory=${DATAPUMP_DIR} dumpfile=${DATAPUMP_UNIQUE_ID}_%
 sqlplus / as sysdba << EOF
 drop directory ${DATAPUMP_DIR};
 EOF
-
 fi
