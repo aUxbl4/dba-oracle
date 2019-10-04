@@ -19,5 +19,4 @@ find ${RDBMS_DIR} -name *.trm -mtime +${DEPTH} | xargs rm > /dev/null 2>&1
 find ${RDBMS_DIR} -name core_* -type d -mtime +${DEPTH} | xargs rm -rf > /dev/null 2>&1
 find ${RDBMS_DIR} -name log_*.xml -mtime +${DEPTH} | xargs rm > /dev/null 2>&1
 find ${RDBMS_DIR} -name log_*.xml -mtime +${DEPTH} | grep "diag/tnslsnr" | xargs rm > /dev/null 2>&1
-
 fi
