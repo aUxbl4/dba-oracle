@@ -1,13 +1,13 @@
 #!/bin/sh
 
 if [ $# -lt 5 ]; then
-echo "############################################################################################################################################"
-echo "#                                                                                                                                          #"
-echo "#    Usage:   ./datapump_expdp_schemas.sh <ORACLE_ENV_FILE> <DATAPUMP_PATH> <DATAPUMP_UNIQUE_ID> <DATAPUMP_PARALLEL> <DATAPUMP_SCHEMAS>    #"
-echo "#    Example: ./datapump_expdp_schemas.sh .profile.12201.testdb /xnfsdata/datapump D_00_000_00_001 2 TEST1,TEST2                           #"
-echo "#                                                                                                                                          #"
-echo "############################################################################################################################################"
-exit;
+   echo "############################################################################################################################################"
+   echo "#                                                                                                                                          #"
+   echo "#    Usage:   ./datapump_expdp_schemas.sh <ORACLE_ENV_FILE> <DATAPUMP_PATH> <DATAPUMP_UNIQUE_ID> <DATAPUMP_PARALLEL> <DATAPUMP_SCHEMAS>    #"
+   echo "#    Example: ./datapump_expdp_schemas.sh .profile.12201.testdb /xnfsdata/datapump D_00_000_00_001 2 TEST1,TEST2                           #"
+   echo "#                                                                                                                                          #"
+   echo "############################################################################################################################################"
+   exit;
 else
 
 DATAPUMP_DIR="JOB_DATAPUMP_DIR"
