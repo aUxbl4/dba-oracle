@@ -1,11 +1,11 @@
 #!/bin/sh
 
 if [ $# != 3 ]; then
-        echo "----------------"
-        echo "Usage:   ./rman_backup_cold.sh <ORA_ENV> <BACKUP_LOCATION> <SM_REQUEST>"
-        echo "Example: ./rman_backup_cold.sh .profile.121024.apexxd01 /u01 IM26677589"
-        echo "----------------"
-        exit;
+   echo "----------------"
+   echo "Usage:   ./rman_backup_cold.sh <ORA_ENV> <BACKUP_LOCATION> <SM_REQUEST>"
+   echo "Example: ./rman_backup_cold.sh .profile.121024.apexxd01 /u01 IM26677589"
+   echo "----------------"
+   exit;
 else
 
 ORA_ENV=$1
