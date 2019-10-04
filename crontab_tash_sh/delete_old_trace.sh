@@ -8,7 +8,6 @@ echo "#    Example: ./delete_old_traces.sh /oracle/app/oracle/product/base11204 
 echo "#                                                                               #"
 echo "#################################################################################"
 exit 1;
- 
 else
 
 RDBMS_DIR=$1
